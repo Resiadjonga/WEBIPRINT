@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebIprint services- Impression, Web & Infrastructure Réseau</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Librairie d'icônes FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- En-tête / Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo-wrapper">
+      <img src="WEBIPRINT.jpeg" alt="logo WEBIPRINT Services" class="logo-icon">
+      <span class="logo-text">Web<span>Iprint services</span></span>
+      </a>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Accueil</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#contact" class="nav-link btn-nav">Demander un devis</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge">Solutions Tech & Print</span>
+        <h1>Impression haute définition, applications web et solutions réseau.</h1>
+        <p>WebIprint accompagne les entreprises et particuliers : du branding textile au développement web sur-mesure et à l'infogérance informatique.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Obtenir un devis</a>
+          <a href="#services" class="btn btn-secondary">Explorer nos services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Nos Domaines d'Expertise</h2>
+      <p class="section-subtitle">Des solutions intégrées pour vos besoins en communication et infrastructure informatique.</p>
+      
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-print"></i>
+          </div>
+          <h3>Impression Numérique & Branding</h3>
+          <p>Personnalisation textile, t-shirts, bannières, cartes de visite, roll-ups et gadgets publicitaires.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Développement Web & Apps</h3>
+          <p>Conception de sites vitrines modernes, plateformes web complexes, e-commerce et applications dédiées.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Maintenance & Réseau</h3>
+          <p>Câblage réseau, installation informatique, infogérance d'entreprise et maintenance préventive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>Pourquoi faire confiance à WebIprint Services ?</h2>
+        <p>Nous combinons la créativité graphique, les technologies web avancées et la fiabilité des infrastructures réseaux.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Qualité d'impression irréprochable & délais maîtrisés</li>
+          <li><i class="fas fa-check-circle"></i> Architectures web modernes, fluides et sécurisées</li>
+          <li><i class="fas fa-check-circle"></i> Intervention réseau rapide et support de proximité</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Devis -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Parlons de votre projet</h2>
+      <div class="contact-wrapper">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Votre nom complet" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Votre adresse e-mail" required>
+          </div>
+          <div class="form-group">
+            <select id="service-type" required>
+              <option value="" disabled selected>Sélectionnez un service</option>
+              <option value="print">Impression Numérique / Branding</option>
+              <option value="web">Développement Web / Application</option>
+              <option value="network">Maintenance Réseau / IT</option>
+              <option value="other">Projet Combiné / Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Décrivez votre besoin en détail..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 WebIprint services. Tous droits réservés.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
