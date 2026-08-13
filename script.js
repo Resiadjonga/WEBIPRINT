@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const name = document.getElementById('name').value;
     const service = document.getElementById('service-type').value;
 
-    alert(`Merci ${name} ! Votre demande pour le service (${service}) a bien été envoyée. L'équipe WebIprint vous recontactera rapidement.`);
+    alert(`Merci ${name} ! Votre demande pour le service (${service}) a bien été envoyée. L'équipe WebIprint services vous recontactera rapidement.`);
 
     contactForm.reset();
   });
