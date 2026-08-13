@@ -290,21 +290,6 @@ body {
   width: 100%;
 }
 
-/* Footer */
-.footer {
-  background: var(--primary-color);
-  color: var(--white);
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
 /* --- FOOTER (Style de base) --- */
 .footer {
   background: var(--primary-color);
